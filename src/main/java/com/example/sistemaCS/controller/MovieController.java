@@ -19,6 +19,7 @@ public class MovieController {
     @GetMapping("/listMovies")
     public ModelAndView listMovies(@RequestBody int id){
         this.movies = ms.listMovies(id);
+        System.out.println("movies");
         ModelAndView mv = new ModelAndView("listMovie");
         mv.addObject("movies", movies);
         mv.addObject("id", id);

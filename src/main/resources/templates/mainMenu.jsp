@@ -15,7 +15,7 @@
       <div class="header">
         <h2 class="text-center mb-4">Tela Principal</h2>
         <div class="d-flex justify-content-between align-items-center mb-4">
-          <a href="index.jsp" class="btn btn-danger">Sair</a>
+          <a href="index.html" class="btn btn-danger">Sair</a>
         </div>
       </div>
       <div class="content">

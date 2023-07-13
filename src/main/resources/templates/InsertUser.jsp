@@ -35,7 +35,7 @@
                     <input type="password" class="form-control" id="confirm-password" name="confirm-password" required placeholder="insiraSuaSenha123">
                 </div>
                 <button type="submit" class="btn btn-success btn-block">Cadastrar</button>
-                <a href="index.jsp" class="btn btn-primary btn-block">Voltar</a>
+                <a href="index.html" class="btn btn-primary btn-block">Voltar</a>
             </form>
         </div>
     </div>
