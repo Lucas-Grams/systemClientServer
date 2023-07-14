@@ -16,7 +16,14 @@ public class UserController{
     private User u;
     private ArrayList<User> users = new ArrayList<>();
 
-    @GetMapping("/index")
+    @GetMapping("hello")
+    public String hello(){
+        System.out.println("hello");
+        return "hello";
+    }
+
+
+    @GetMapping("index")
     public ModelAndView index(){
         System.out.println("index");
         ModelAndView mv = new ModelAndView("index");
